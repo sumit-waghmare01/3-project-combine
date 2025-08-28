@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-image: url(img/house.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.main{
+    max-width: 1100px;
+    margin:  auto;
+
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+     
+}
+
+ul li{
+    display: inline-block;
+    border: 1px solid transparent;
+
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5PX;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+
+.active{
+    background-color: white;
+    color: black;
+}
+
+.logo img {
+    margin-top: 12px;
+    width: 70px;
+    height: 50px;
+}
+
+
+.certer_text{
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+h1{
+    color: rgb(2, 1, 1);
+    font-size: 30px;
+}
+
+
+#bt1{
+    border: 1px solid white;
+    color: white;
+    padding: 1px;
+    text-decoration: none;
+}
+
+#bt2{
+    border: 1px solid white;
+    color: white;
+    padding: 1px;
+    text-decoration: none;
+}
+
+#bt1:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+
+#bt2:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
